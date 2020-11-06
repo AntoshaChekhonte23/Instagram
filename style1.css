@@ -1,0 +1,225 @@
+
+*{
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1470px;
+  margin: 0 auto;
+  padding: 0 15px; 
+}
+.header__box{
+	max-width:1470px;
+	min-height: 120px;
+	border-bottom:1px solid #D9D8D7;
+}
+.header__title{
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 35px;
+	color:#595958;
+	border:3px solid #595958;
+	display: inline-block;
+	padding: 10px;
+	margin:30px 370px 35px;
+	
+}
+.header__title:hover{
+	border-color: black;
+	color:black;
+}
+.caption__box{
+	max-width:1370px;
+	min-height: 100px;
+	
+}
+.caption__title{
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 23px;
+	color:black;
+	display: inline-block;
+	margin:50px 0px 50px;
+}
+.main1__box{
+	display: flex;
+}
+.main2__box{
+	display: flex;
+	
+}
+.main3__box{
+	display: flex;
+	
+}
+.main1__margin{
+	margin:0px 50px 50px 0px;
+}
+.main2__margin{
+	margin:0px 50px 50px 0px;
+}
+.main__content-furniture,
+.main__content-pillows,
+.main__content-lighting,
+.main2__content-chair,
+.main3__content-chair{
+	max-width:447px;	
+}
+.main__content-img,
+.main__content-imgPill,
+.main__content-imgLight,
+.main2__content-imgChair,
+.main3__content-imgChair{
+	max-width:447px;
+}
+.main__content-furniture-img,
+.main__content-pillows-img,
+.main__content-lighting-img,
+.main2__content-chair-img{
+	width:447px;
+	height: 547px;
+}
+.main__content-furniture-text,
+.main__content-pillows-text,
+.main__content-lighting-text,
+.main2__content-chair-text,
+.main3__content-chair-text{
+	/*font-family: 'DM Sans', sans-serif;*/
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	font-size: 19px;
+	color:black;
+	margin-top:15px;
+}
+
+a{
+	text-decoration:none; 
+}
+a:hover{
+	text-decoration:none; 
+}
+
+a .Main__btn{
+	color:#373636;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	margin-left:150px;	
+	
+}
+a .Main2__btn{
+	color:#373636;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	margin-left:150px;	
+
+}
+.main__btn2{
+	color:#373636;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	margin-top: 30px;
+}
+
+.Admin__text{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	color:black;
+}
+.default-btn{
+	display: inline-block;
+	padding: 8px 30px 8px 24px;
+	border:1px solid #5C5957;
+	border-right-width: 20px;
+	position: relative;
+	z-index: 2;
+	background-color: white;
+
+}
+.default-btn:after{
+	content: "\f105";
+	font-family: 'icomoon';
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	right:-12px;
+	color:#fff;
+
+	
+}
+.default-btn:focus{
+	outline: none !important;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+.header {
+  text-align: center;
+}
+.header a {
+  text-decoration: none;
+  color: #64ada3;
+
+}
+
+.accordion {
+  width: 100%;
+  max-width: 258px;
+  margin: 0px;
+  padding: 0px;
+
+}
+.accordion-item .heading {
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	color:black;
+	position: relative;
+	padding:  5px 15px 5px 0px;
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	text-decoration: underline;
+}
+@media (min-width: 40rem) {
+  .accordion-item .heading {
+   font-size: 13px;
+  }
+}
+.accordion-item .content {
+	display: none;
+
+}
+.accordion-item .content pre {
+  margin-top: 0;
+  font-family: 'Poiret One', cursive;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	color:black;
+	font-size: 14px;
+}
+@media (min-width: 40rem) {
+  .accordion-item .content {
+    line-height: 1.75;
+
+  }
+}
+.display__none{
+	display: none;
+}
+.display__block{
+	display: block;
+}
+
